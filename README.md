@@ -1,2 +1,3 @@
 # Homework_codecamp_17
-for homework
+1. Name : Kasira Polsawai
+2. Homework : 1
