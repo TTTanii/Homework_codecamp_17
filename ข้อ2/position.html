@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_2</title>
+    <style>
+    body {
+        padding: 0;
+        margin: 0;
+        height: 200vh;
+    }
+    .big {
+        width: 50%;
+        height: 50%;
+    }
+    .small {
+        width: 25%;
+        height: 25%;
+    }
+    .inside {
+        width: 10%;
+        height: 10%;
+    }
+    .absolute {
+        position: absolute;
+    }
+    .relative {
+        position: relative;
+    }
+    .fixed {
+        position: fixed;
+    }
+    .top {
+        top: 0;
+    }
+    .left {
+        left:0;
+    }
+    .right {
+        right: 0;
+    }
+    .bottom {
+        bottom: 0;
+    }
+    .center {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .red {
+        background-color: red;
+    }
+    .green {
+        background-color: green;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .yellow {
+        background-color: yellow;
+    }
+    .pink {
+        background-color: deeppink;
+    }
+    .white {
+        background-color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="red small left top absolute" ></div>
+    <div class="green small right top absolute"></div>
+    <div class="blue small left bottom absolute"></div>
+    <div class="yellow small right bottom absolute"></div>
+    <div class="white big center fixed">
+        <div class="red inside left top fixed"></div>
+        <div class="green inside right top fixed"></div>
+        <div class="blue inside left bottom fixed"></div>
+        <div class="yellow inside right bottom fixed"></div>
+        <div class="pink inside center fixed"></div>
+    </div>
+</body>
+</html>
